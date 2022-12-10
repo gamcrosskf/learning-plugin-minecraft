@@ -1,0 +1,9 @@
+commands:
+  testLearning:
+    # The description of the command
+    # All colors : http://minecraft.gamepedia.com/Formatting_codes
+
+    # The color of the message
+    color: "§2"
+    # The message to send to the player
+    message: Learning is enabled!
