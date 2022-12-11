@@ -1,8 +1,20 @@
+menu:
+  item1:
+    # Stone by default
+    material: "dqdq"
+  item2:
+    material: "GRASS_BLOCK"
+  item3:
+    material: "NETHERRACK"
+  item4:
+    material: "END_STONE"
+
+
+
 commands:
   testLearning:
     # The description of the command
     # All colors : http://minecraft.gamepedia.com/Formatting_codes
-
     # The color of the message
     color: "§2"
     # The message to send to the player

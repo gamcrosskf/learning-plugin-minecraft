@@ -2,6 +2,11 @@ package me.gamcross.learning;
 
 import me.gamcross.learning.commands.CommandBroadcast;
 import me.gamcross.learning.commands.CommandTestEnable;
+import me.gamcross.learning.events.OnClick;
+import org.bukkit.Material;
+import org.bukkit.entity.Player;
+import org.bukkit.event.inventory.InventoryClickEvent;
+import org.bukkit.event.player.PlayerInteractEvent;
 import org.bukkit.plugin.java.JavaPlugin;
 
 public class Main extends JavaPlugin {
@@ -16,6 +21,9 @@ public class Main extends JavaPlugin {
         // Register commands
         getCommand("testLearning").setExecutor(new CommandTestEnable(this));
         getCommand("broadcast").setExecutor(new CommandBroadcast());
+
+        // Register events
+        getServer().getPluginManager().registerEvents(new OnClick(this), this);
     }
 
     @Override

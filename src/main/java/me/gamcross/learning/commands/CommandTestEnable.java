@@ -15,11 +15,7 @@ public class CommandTestEnable implements CommandExecutor {
 
     @Override
     public boolean onCommand(CommandSender commandSender, Command command, String s, String[] strings) {
-        if(commandSender.hasPermission("learning.test")) {
-            commandSender.sendMessage(main.prefix + main.getConfig().getString("commands.testLearning.color") + main.getConfig().getString("commands.testLearning.message"));
-        } else {
-            commandSender.sendMessage(main.prefix + ChatColor.RED + "You don't have permission to use this command!");
-        }
+        commandSender.sendMessage(main.prefix + main.getConfig().getString("commands.testLearning.color") + main.getConfig().getString("commands.testLearning.message"));
         return false;
     }
 }
