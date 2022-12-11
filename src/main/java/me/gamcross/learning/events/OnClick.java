@@ -39,7 +39,7 @@ public class OnClick implements Listener {
                     material = Material.STONE;
                 }
                 else {
-                    material = Material.getMaterial(main.getConfig().getString("menu.item1.material"));
+                    material = Material.getMaterial(main.getConfig().getString("menu.game1.material"));
                 }
                 // Create a new ItemStack with a name and material is defined in config.yml
                 ItemStack item = new ItemStack(material, 1);
@@ -49,12 +49,12 @@ public class OnClick implements Listener {
                 inv.setItem(10, item);
 
                 //test if main.getConfig().getString("menu.item2.material") is a valid material
-                material = Material.getMaterial(main.getConfig().getString("menu.item2.material"));
+                material = Material.getMaterial(main.getConfig().getString("menu.game2.material"));
                 if (material == null) {
                     material = Material.STONE;
                 }
                 else {
-                    material = Material.getMaterial(main.getConfig().getString("menu.item2.material"));
+                    material = Material.getMaterial(main.getConfig().getString("menu.game2.material"));
                 }
                 item = new ItemStack(material, 1);
                 meta = item.getItemMeta();
@@ -63,12 +63,12 @@ public class OnClick implements Listener {
                 inv.setItem(12, item);
 
                 //test if main.getConfig().getString("menu.item3.material") is a valid material
-                material = Material.getMaterial(main.getConfig().getString("menu.item3.material"));
+                material = Material.getMaterial(main.getConfig().getString("menu.game.material"));
                 if (material == null) {
                     material = Material.STONE;
                 }
                 else {
-                    material = Material.getMaterial(main.getConfig().getString("menu.item3.material"));
+                    material = Material.getMaterial(main.getConfig().getString("menu.game.material"));
                 }
                 item = new ItemStack(material, 1);
                 meta = item.getItemMeta();
@@ -77,12 +77,12 @@ public class OnClick implements Listener {
                 inv.setItem(14, item);
 
                 //test if main.getConfig().getString("menu.item4.material") is a valid material
-                material = Material.getMaterial(main.getConfig().getString("menu.item4.material"));
+                material = Material.getMaterial(main.getConfig().getString("menu.game.material"));
                 if (material == null) {
                     material = Material.STONE;
                 }
                 else {
-                    material = Material.getMaterial(main.getConfig().getString("menu.item4.material"));
+                    material = Material.getMaterial(main.getConfig().getString("menu.game.material"));
                 }
                 item = new ItemStack(material, 1);
                 meta = item.getItemMeta();

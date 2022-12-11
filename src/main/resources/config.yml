@@ -1,12 +1,12 @@
 menu:
-  item1:
+  game1:
     # Stone by default
     material: "dqdq"
-  item2:
+  game2:
     material: "GRASS_BLOCK"
-  item3:
+  game3:
     material: "NETHERRACK"
-  item4:
+  game4:
     material: "END_STONE"
 
 

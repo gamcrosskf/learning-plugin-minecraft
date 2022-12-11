@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e17ae1bc-e300-48ef-97a1-0faa740c65ad" name="Changes" comment="Add Command Test and Config.yml">
-      <change afterPath="$PROJECT_DIR$/src/main/java/me/gamcross/learning/events/OnClick.java" afterDir="false" />
+    <list default="true" id="e17ae1bc-e300-48ef-97a1-0faa740c65ad" name="Changes" comment="Config.yml work with our 4 Material Games.&#10;Set stone by default.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/me/gamcross/learning/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/gamcross/learning/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/me/gamcross/learning/commands/CommandTestEnable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/gamcross/learning/commands/CommandTestEnable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/me/gamcross/learning/events/OnClick.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/gamcross/learning/events/OnClick.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/config.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -258,7 +256,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670679560481</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Config.yml work with our 4 Material Games.&#10;Set stone by default.">
+      <created>1670784397769</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1670784397769</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -279,6 +284,7 @@
     <MESSAGE value="Steup server &amp; and plugin" />
     <MESSAGE value="Add CommandBroadcast" />
     <MESSAGE value="Add Command Test and Config.yml" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add Command Test and Config.yml" />
+    <MESSAGE value="Config.yml work with our 4 Material Games.&#10;Set stone by default." />
+    <option name="LAST_COMMIT_MESSAGE" value="Config.yml work with our 4 Material Games.&#10;Set stone by default." />
   </component>
 </project>
